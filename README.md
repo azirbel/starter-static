@@ -2,6 +2,14 @@
 
 Good for static pages, homepages, etc.
 
+## Setup
+
+```
+yarn
+```
+
+## Development
+
 ```
 yarn dev
 yarn build

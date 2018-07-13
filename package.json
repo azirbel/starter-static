@@ -6,5 +6,8 @@
     "dev": "parcel index.pug",
     "build": "rm -rf build && parcel build index.pug",
     "deploy": "yarn build && now dist"
+  },
+  "dependencies": {
+    "parcel": "^1.9.6"
   }
 }
