@@ -1,0 +1,10 @@
+{
+  "name": "azirbel-pug",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.pug",
+    "build": "rm -rf build && parcel build index.pug",
+    "deploy": "yarn build && now dist"
+  }
+}
